@@ -1,0 +1,50 @@
+*{
+    font-family: "SpaceGrotesk-Bold", sans-serif;
+    margin: 0;
+
+}
+.left-side{
+    width:60%;
+}
+
+
+/* .image1{
+    display: flex;
+} */
+
+@media (max-width: 768px) {
+    header {
+        height: auto; /* Allows height to adjust based on content */
+        padding: 30px 15px;
+        
+    }
+    p{
+        color: white;
+    }
+}
+/* <style> */
+    .para1 {
+        position: relative;
+        margin-left: 0; /* Default position */
+    }
+
+    @media (min-width: 768px) {
+        .para1 {
+            margin-left: -100px; /* Adjust for medium screens */
+        }
+    }
+
+    @media (min-width: 992px) {
+        .para1 {
+            margin-left: -180px; /* Adjust for larger screens */
+        }
+    }
+/* </style>
+
+<div class="para1 col-12 col-md-7 d-flex flex-column">
+    <div class="ms-auto bg-danger">
+        <p style="font-size: 1.7rem; color: white;">SUBSCRIBE TO OUR NEWSLETTER</p>
+        <p style="font-size: 1.2rem; color: white;">Get monthly updates and opportunities from the Tor Project:</p>
+        <button type="button" class="btn btn-outline-light d-block mx-auto mt-3" style="font-size: 1rem;">SIGN UP</button>
+    </div>
+</div> */
